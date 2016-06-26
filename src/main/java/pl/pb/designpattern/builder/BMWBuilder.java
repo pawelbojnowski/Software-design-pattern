@@ -1,4 +1,4 @@
-package pl.pb.programming.patterns.builder;
+package pl.pb.designpattern.builder;
 
 import java.util.UUID;
 

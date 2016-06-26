@@ -1,4 +1,4 @@
-package pl.pb.programming.patterns.chainofresponsibility;
+package pl.pb.designpattern.chainofresponsibility;
 
 import java.math.BigDecimal;
 import java.math.MathContext;

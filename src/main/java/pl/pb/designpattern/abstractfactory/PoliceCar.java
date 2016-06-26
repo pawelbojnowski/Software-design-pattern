@@ -1,4 +1,4 @@
-package pl.pb.programming.patterns.abstractfactory;
+package pl.pb.designpattern.abstractfactory;
 
 public class PoliceCar extends Car {
 

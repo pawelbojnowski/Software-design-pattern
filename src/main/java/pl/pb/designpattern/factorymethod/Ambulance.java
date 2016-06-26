@@ -1,4 +1,4 @@
-package pl.pb.programming.patterns.factorymethod;
+package pl.pb.designpattern.factorymethod;
 
 import java.util.UUID;
 

@@ -1,4 +1,4 @@
-package pl.pb.programming.patterns.strategy;
+package pl.pb.designpattern.strategy;
 
 import java.math.BigDecimal;
 

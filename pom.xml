@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>pl.pb</groupId>
-    <artifactId>softwerdesignpattern</artifactId>
+    <artifactId>softwaredesignpattern</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <name>Softwer design pattern</name>
+    <name>Software design pattern</name>
 
 </project>

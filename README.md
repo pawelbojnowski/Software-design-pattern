@@ -1,1 +1,37 @@
-# Softwer-design-pattern
+# Software design pattern
+
+
+- Creational design patterns
+
+- [x] Abstract Factory :)
+- [x] Builder :)
+- [x] Factory Method :)
+- [ ] Object Pool
+- [x] Prototype :)
+- [ ] Singleton
+
+- Structural design patterns
+
+- [ ] Adapter
+- [ ] Bridge
+- [ ] Composite
+- [x] Decorator :)
+- [ ] Facade
+- [ ] Flyweight
+- [ ] Private Class Data
+- [ ] Proxy
+
+- Behavioral design patterns
+
+- [ ] Chain of responsibility
+- [ ] Command
+- [ ] Interpreter
+- [ ] Iterator
+- [ ] Mediator
+- [ ] Memento
+- [ ] Null Object
+- [ ] Observer
+- [ ] State
+- [x] Strategy
+- [ ] Template method
+- [x] Visitor

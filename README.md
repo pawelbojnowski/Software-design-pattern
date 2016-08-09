@@ -3,11 +3,11 @@
 
 - Creational design patterns
 
-- [x] Abstract Factory :)
-- [x] Builder :)
-- [x] Factory Method :)
+- [x] Abstract Factory
+- [x] Builder
+- [x] Factory Method
 - [ ] Object Pool
-- [x] Prototype :)
+- [x] Prototype
 - [ ] Singleton
 
 - Structural design patterns
@@ -15,7 +15,7 @@
 - [ ] Adapter
 - [ ] Bridge
 - [ ] Composite
-- [x] Decorator :)
+- [x] Decorator
 - [ ] Facade
 - [ ] Flyweight
 - [ ] Private Class Data

@@ -3,19 +3,19 @@
 
 - Creational design patterns
 
-- [x] Abstract Factory :)
-- [x] Builder :)
-- [x] Factory Method :)
+- [x] Abstract Factory
+- [x] Builder
+- [x] Factory Method
 - [ ] Object Pool
-- [x] Prototype :)
-- [ ] Singleton
+- [x] Prototype
+- [x] Singleton
 
 - Structural design patterns
 
-- [ ] Adapter
+- [x] Adapter
 - [ ] Bridge
 - [ ] Composite
-- [x] Decorator :)
+- [x] Decorator
 - [ ] Facade
 - [ ] Flyweight
 - [ ] Private Class Data
@@ -23,7 +23,7 @@
 
 - Behavioral design patterns
 
-- [ ] Chain of responsibility
+- [X] Chain of responsibility
 - [ ] Command
 - [ ] Interpreter
 - [ ] Iterator

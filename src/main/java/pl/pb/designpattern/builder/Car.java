@@ -60,4 +60,43 @@ public class Car {
                 ", options=" + options.size() +
                 '}';
     }
+
+    public static class Builder {
+
+        private String VIN;
+        private String brand;
+        private String model;
+        private List<String> options = new ArrayList<String>();
+
+
+        public Builder setVIN(String VIN) {
+            this.VIN = VIN;
+            return this;
+        }
+
+        public Builder setBrand(String brand) {
+            this.brand = brand;
+            return this;
+        }
+
+        public Builder setModel(String model) {
+            this.model = model;
+            return this;
+        }
+
+        public Builder setOptions(List<String> options) {
+            this.options = options;
+            return this;
+        }
+
+        public Car build() {
+            Car car = new Car();
+            car.setVIN(VIN);
+            car.setBrand(brand);
+            car.setModel(model);
+            car.setOptions(options);
+            return car;
+        }
+    }
+
 }

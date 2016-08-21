@@ -13,7 +13,7 @@
 - Structural design patterns
 
 - [x] Adapter
-- [ ] Bridge
+- [x] Bridge
 - [ ] Composite
 - [x] Decorator
 - [ ] Facade

@@ -1,19 +1,15 @@
 package pl.pb.designpattern.builder;
 
 
+import java.util.UUID;
+
 public class BuilderPattern {
 
     public static void main(String... arg) {
+        Car carBMW = new Car.Builder().setBrand("BMW").setModel("535i").setVIN(UUID.randomUUID().toString()).build();
+        System.out.println(carBMW);
 
-        Dealer dealerBMW = new Dealer();
-        dealerBMW.buildCar(new BMWBuilder());
-        Car bmw = dealerBMW.getCar();
-
-        System.out.println(bmw);
-
-        Dealer dealerFiat = new Dealer();
-        dealerFiat.buildCar(new FiatBuilder());
-        Car fiat = dealerFiat.getCar();
-        System.out.println(fiat);
+        Car carFiat = new Car.Builder().setBrand("Fiat").setModel("125p").setVIN(UUID.randomUUID().toString()).build();
+        System.out.println(carFiat);
     }
 }

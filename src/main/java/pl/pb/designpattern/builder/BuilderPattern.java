@@ -6,10 +6,16 @@ import java.util.UUID;
 public class BuilderPattern {
 
     public static void main(String... arg) {
-        Car carBMW = new Car.Builder().setBrand("BMW").setModel("535i").setVIN(UUID.randomUUID().toString()).build();
+
+        Dealer dealer = new Dealer();
+
+
+        dealer.setCarBuilder(new CarBmw());
+        Car carBMW = dealer.createCar();
         System.out.println(carBMW);
 
-        Car carFiat = new Car.Builder().setBrand("Fiat").setModel("125p").setVIN(UUID.randomUUID().toString()).build();
+        dealer.setCarBuilder(new CarFiat());
+        Car carFiat = dealer.createCar();
         System.out.println(carFiat);
     }
 }

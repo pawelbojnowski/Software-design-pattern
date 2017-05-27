@@ -27,7 +27,7 @@
 - [ ] Command
 - [ ] Interpreter
 - [ ] Iterator
-- [ ] Mediator
+- [X] Mediator
 - [ ] Memento
 - [ ] Null Object
 - [ ] Observer

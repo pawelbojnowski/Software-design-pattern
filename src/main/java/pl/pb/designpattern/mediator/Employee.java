@@ -6,7 +6,5 @@ public interface Employee {
 
     void receiveInformation(String info);
 
-    Mediator getMediator();
-
     String getName();
 }

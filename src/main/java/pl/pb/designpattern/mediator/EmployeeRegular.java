@@ -9,6 +9,7 @@ public class EmployeeRegular implements Employee {
     public EmployeeRegular(Mediator mediator, String name) {
         this.mediator = mediator;
         this.name = name;
+        mediator.addEmployee(this);
     }
 
 

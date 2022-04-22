@@ -1,4 +1,4 @@
-package pl.pb.designpattern.wizytator;
+package pl.pb.designpattern.vizytator;
 
 import java.util.Arrays;
 import java.util.List;
@@ -20,5 +20,6 @@ public class VisitorPattern {
         for (Shape shape : shapes) {
             shape.accept(shapeManager);
         }
+
     }
 }

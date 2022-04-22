@@ -12,7 +12,7 @@ public class PrettyMessagePrinter implements MessagePrinter {
         stringBuilder.append("] ");
         String type = message.getTypeMessage() == Message.Type.ERROR ? "[31m" : "[32m";
         stringBuilder.append((char) 27);
-        stringBuilder.append( type);
+        stringBuilder.append(type);
         stringBuilder.append(message.getTypeMessage());
         stringBuilder.append((char) 27);
         stringBuilder.append("[0m");

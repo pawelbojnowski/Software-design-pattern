@@ -30,7 +30,7 @@
 - [X] Mediator
 - [ ] Memento
 - [ ] Null Object
-- [ ] Observer
+- [X] Observer
 - [ ] State
 - [x] Strategy
 - [ ] Template method

@@ -1,4 +1,4 @@
-package pl.pb.designpattern.wizytator;
+package pl.pb.designpattern.vizytator;
 
 public class SquareShape implements Shape {
     public String name;

@@ -1,9 +1,6 @@
 package pl.pb.designpattern.mediator;
 
 
-import com.sun.org.apache.xpath.internal.SourceTree;
-
-import javax.sound.midi.Soundbank;
 import java.util.ArrayList;
 import java.util.List;
 

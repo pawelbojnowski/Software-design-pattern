@@ -1,4 +1,4 @@
-package pl.pb.designpattern.wizytator;
+package pl.pb.designpattern.vizytator;
 
 public class ShapeManager implements Visitor {
     public void visit(CircleShape circleShape) {
